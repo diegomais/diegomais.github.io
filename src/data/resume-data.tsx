@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       company: "TheySaid",
       link: "https://www.theysaid.io",
       badges: ["Remote"],
-      title: "Principal Software Engineer",
+      title: "Senior Software Engineer",
       logo: theysaid,
       start: "2023",
       end: "Present",
