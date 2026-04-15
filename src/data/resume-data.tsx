@@ -1,10 +1,10 @@
-import { theysaid, koper, nuffsaid, toup } from '@/images/logos'
+import { cherre, koper, nuffsaid, theysaid, toup } from '@/images/logos'
 import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/icons'
 
 export const RESUME_DATA = {
   name: 'Diego Mais',
   initials: 'DM',
-  location: 'Itapema, Santa Catarina, Brazil, BRT',
+  location: 'Curitiba, Paraná, Brazil, BRT',
   locationLink: 'https://www.google.com/maps/place/Itapema',
   about:
     'Full Stack Engineer focused on building products with extra attention to detail',
@@ -49,13 +49,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: 'Cherre',
+      link: 'https://www.cherre.com',
+      badges: ['Remote'],
+      title: 'Senior Full Stack Engineer',
+      logo: cherre,
+      start: '2025',
+      end: '2025',
+      description:
+        'Built an AI-driven conversational feature that guides users to generate custom SQL scripts for custom data validation. Technologies: Node.js, Hasura, React, TypeScript, GraphQL, PostgreSQL, Material UI',
+    },
+    {
       company: 'TheySaid',
       link: 'https://www.theysaid.io',
       badges: ['Remote'],
       title: 'Senior Software Engineer',
       logo: theysaid,
       start: '2023',
-      end: 'Present',
+      end: '2024',
       description:
         'Implemented new features, managed cloud infrastructure, worked on migration from Python to Node.js and more. Technologies: Node.js/NestJS, React, TypeScript, GraphQL/Apollo, PostgreSQL, Python/Flask, Terraform',
     },
